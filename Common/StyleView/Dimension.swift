@@ -9,7 +9,7 @@
 import UIKit
 
 public class Dimension {
-   public static var shared = Dimension()
+    static var shared = Dimension()
    
     var widthScale: CGFloat = 1.0
     var heightScale: CGFloat = 1.0

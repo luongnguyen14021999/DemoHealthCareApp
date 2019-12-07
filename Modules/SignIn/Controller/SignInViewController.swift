@@ -85,7 +85,6 @@ class SignInViewController: BaseViewController {
     
     @objc func signUpButtontapped() {
         navigationController?.pushViewController(SignUpViewController(), animated: true)
-        
     }
     
 

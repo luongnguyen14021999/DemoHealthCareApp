@@ -9,7 +9,7 @@
 import UIKit
 
 public class Theme {
-    public static var shared = Theme()
+    static var shared = Theme()
     
     private init() {}
     
